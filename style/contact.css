@@ -1,0 +1,174 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/roboto.ttf);
+}
+
+@font-face {
+  font-family: louis;
+  src: url(../fonts/louis.ttf);
+}
+
+  @font-face {
+  font-family: oran;
+  src: url(../fonts/oran.ttf);
+}
+
+body {
+	background-image: url('../images/background.png');
+}
+
+#header {
+	position: fixed;
+	width: 4.5%;
+	height: 6.5%;
+	background-color: #FF7E00;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	transition: width 0.5s;
+}
+
+#backgroundHeader {
+	background-color: #fff8f7;
+	height: 5.2%;
+	width: 100%;
+	position: fixed;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	z-index: 1;
+
+
+}
+
+h2 {
+	font-family: roboto;
+	font-size: 140%;
+	position: fixed;
+ 	top:-2.5%;
+ 	margin-left: 0.2%;
+}
+
+ #home { 
+ 	left:15%;
+
+ }
+
+ #home:hover {
+ 		color: #FF7E00;
+ }
+
+ #photos {
+ 	left: 31%;
+ 	transition: color 0.3s;
+ }
+
+#photos:hover {
+	color: #FF7E00;
+}
+
+ #poems {
+ 	left: 45%;
+ 	transition: color 0.3s;
+ }
+
+ #poems:hover {
+	color: #FF7E00;
+}
+
+
+ #film {
+ 	left: 60%;
+ 	transition: color 0.3s;
+ }
+
+ #film:hover {
+	color: #FF7E00;
+ }
+
+ #contact {
+ 	margin-top: -0.0%;
+ 	margin-left: 71%;
+ 	font-family: roboto;
+ 	font-size: 150%;
+ 	transition: color 0.3s;	
+ 	 	color: #FF7E00;
+ }
+
+#profile {
+	width: 20%;
+	height: 25%;
+	position: fixed;
+	margin-left: 6%;
+	transition: margin-top 1s;
+	margin-top: -50%;
+	z-index: 5;
+	border-radius: 5px;
+	border: solid 1px;
+	-webkit-box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+}
+
+#line {
+	height: 15%;
+	width: 1px;
+	background-color: black;
+	margin-left: 30%;
+	z-index: 5;
+	transition: margin-top 1s;
+	margin-top: -50%;
+	position: fixed;
+}
+
+#about {
+	position: fixed;
+	width: 30%;
+	font-size: 125%;
+	z-index: 5;
+	font-family: louis;
+	margin-left: 35%;
+	margin-top: -110%;
+	transition: margin-top 1s;
+}
+
+#cross {
+	position: fixed;
+	width: 4%;
+	z-index: 5;
+	margin-top: -5%;
+	margin-left: 95%;
+	transition: margin-top 1s;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#click {
+	position: fixed;
+	height: 5.2%;
+	width: 3.9%;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	z-index: 10;
+	cursor: pointer;
+}
+
+
+a { color: black;
+	text-decoration: none;
+ }
+ul {
+	font-family: louis;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 5%;
+	position: absolute;
+	font-size: 200%;
+
+}
+
+li {
+		transition: color 0.2s;
+}
+
+li:hover {
+	color: #FF7E00;
+}

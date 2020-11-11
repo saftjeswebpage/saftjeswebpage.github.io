@@ -1,0 +1,220 @@
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto.ttf);
+}
+
+@font-face {
+  font-family: louis;
+  src: url(fonts/louis.ttf);
+}
+
+
+body {
+	background-image: url('images/background.png');
+}
+
+#contact {}
+
+#header {
+	position: fixed;
+	width: 4.5%;
+	height: 6.6%;
+	background-color: #FF7E00;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	transition: width 0.5s;
+}
+
+#backgroundHeader {
+	background-color: #fff8f7;
+	height: 5.2%;
+	width: 100%;
+	position: fixed;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+
+
+}
+
+h2 {
+	font-family: roboto;
+	font-size: 140%;
+	position: fixed;
+ 	top:-2.5%;
+ 	margin-left: 0.5%;
+}
+
+ #home { 
+ 	left:14.7%;
+ 	color: #FF7E00;
+ }
+
+ #photos {
+ 	left: 29.9%;
+ 	transition: color 0.3s;
+ }
+ #photos:hover {
+ 	color: #FF7E00;
+ }
+
+ #poems {
+ 	left: 45.1%;
+ 	transition: color 0.3s;
+ }
+
+ #poems:hover {
+ 	color: #FF7E00;
+ }
+
+ #film {
+ 	left: 60.25%;
+ 	transition: color 0.3s;
+ }
+
+ #film:hover {
+	color: #FF7E00;
+ }
+
+ #contact {
+ 	margin-top: -0.0%;
+ 	margin-left: 71.9%;
+ 	font-family: roboto;
+ 	font-size: 150%;
+ 	transition: color 0.3s;	
+ }
+
+ #contact:hover {
+ 	color: #FF7E00;
+ }
+
+#profile {
+	width: 20%;
+	height: 25%;
+	position: fixed;
+	margin-left: 6%;
+	transition: margin-top 1s;
+	margin-top: -50%;
+	border-radius: 5px;
+	border: solid 1px;
+	-webkit-box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 27px -3px rgba(0,0,0,0.75);
+}
+
+#line {
+	height: 15%;
+	width: 1px;
+	background-color: black;
+	margin-left: 30%;
+	transition: margin-top 1s;
+	margin-top: -50%;
+	position: fixed;
+}
+
+#about {
+	position: fixed;
+	width: 30%;
+	font-size: 125%;
+	font-family: louis;
+	margin-left: 35%;
+	margin-top: -110%;
+	transition: margin-top 1s;
+}
+
+#container {
+	position: absolute;
+	width: 104.45%;
+	height: 44.5%;
+	margin-top:1.75%;
+	margin-left: -5%;
+	background-color: white;
+	border-top: solid black 1px	;
+	z-index: -1
+}
+
+#cross {
+	position: fixed;
+	width: 4%;
+	margin-top: -5%;
+	margin-left: 95%;
+	transition: margin-top 1s;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#click {
+	position: fixed;
+	height: 5.2%;
+	width: 3.9%;
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#banner {
+	position: absolute;
+	margin-left: 4.1%;
+	margin-top: 0.9%;
+	border-bottom: solid 2px black;
+	-webkit-box-shadow: 0px 6px 14px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 14px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 14px -2px rgba(0,0,0,0.75);
+}
+
+
+
+
+ article {
+ 	background-color: white;
+ 	border: solid 0.5px;
+ 	border-radius: 2px;
+ 	box-shadow: 1px 1px grey;
+ 	border-color: black;
+ 	opacity: 80%;
+ 	margin-top: 26%;
+ 	z-index: -2;
+ 	transition: transform .2s ease-in-out;
+ }
+
+ article:hover {
+ 	transform: scale(1.1);
+ }
+ 
+ 
+#test {
+	padding: 2%;
+	margin-left: 3%;
+	position: absolute;
+	width: 25%;
+	height: 60%
+}
+
+
+
+
+
+#triangle {
+	width: 8%;
+	margin-left: 44%;
+	margin-top: 80%;
+	margin-bottom: -5%;
+	position: absolute;
+}
+
+#circle {
+	transition: margin-top 1s;
+	width: 5%;
+	margin-left: 45.5%;
+	margin-top: 75%;
+	position: absolute;
+}
+
+#circle:hover {
+	margin-top: 73%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
